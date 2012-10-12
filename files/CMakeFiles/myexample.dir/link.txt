@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/myexample.dir/myexample.o CMakeFiles/myexample.dir/main.o CMakeFiles/myexample.dir/moc_myexample.o CMakeFiles/myexample.dir/moc_ui_myexample.o  -o myexample -rdynamic -lQtGui -lQtCore -lpthread 
