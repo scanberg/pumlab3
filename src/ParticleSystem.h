@@ -1,179 +1,42 @@
+#ifndef ParticleSystem_h
+#define ParticleSystem_h
 
-#ifndef PARTICLESYSTEM_H
-#define PARTICLESYSTEM_H
-
-#include <string>
-#include vector
-
-
-
-/**
-  * class ParticleSystem
-  * 
-  */
-
-class ParticleSystem
-{
-public:
-
-    // Constructors/Destructors
-    //  
+#include "Particle.h"
+#include "ParticleEmitter.h"
+#include "ParticleModifier.h"
+#include "f32.h"
+#include "u32.h"
+#include "u8.h"
+#include "vec2.h"
+#include "vec3.h"
 
 
-    /**
-     * Empty Constructor
-     */
-    ParticleSystem ( );
+class ParticleSystem {
 
-    /**
-     * Empty Destructor
-     */
-    virtual ~ParticleSystem ( );
+ public:
 
-    // Static Public attributes
-    //  
+    virtual void update();
 
-    // Public attributes
-    //  
+    virtual void draw();
 
+    virtual void createPointEmitter(vec3 position, u8 spawnRate, vec2 speedIntervall);
 
-    // Public attribute accessor methods
-    //  
+    virtual void createConeEmitter(vec3 position, u8 spawnRate, vec2 speedIntervall, f32 angle, f32 spreadAngle);
 
+    virtual void createGravityModifier(vec3 position, f32 force);
 
-    // Public attribute accessor methods
-    //  
+    virtual void createWindModifier(vec3 position, vec3 direction, f32 force);
+
+ private:
+
+    virtual void createParticle(vec3 position, vec3 velocity);
 
 
-
-    /**
-     * @param  dt
-     */
-    void Update (float dt )
-    {
-    }
-
-
-    /**
-     */
-    void Draw ( )
-    {
-    }
-
-protected:
-
-    // Static Protected attributes
-    //  
-
-    // Protected attributes
-    //  
-
-public:
-
-
-    // Protected attribute accessor methods
-    //  
-
-protected:
-
-public:
-
-
-    // Protected attribute accessor methods
-    //  
-
-protected:
-
-
-private:
-
-    // Static Private attributes
-    //  
-
-    // Private attributes
-    //  
-
-    Particle particles_;
-    PointSource sources_;
-    Modifier modifiers_;
-public:
-
-
-    // Private attribute accessor methods
-    //  
-
-private:
-
-public:
-
-
-    // Private attribute accessor methods
-    //  
-
-
-    /**
-     * Set the value of particles_
-     * @param new_var the new value of particles_
-     */
-    void setParticles_ ( Particle new_var )     {
-            particles_ = new_var;
-    }
-
-    /**
-     * Get the value of particles_
-     * @return the value of particles_
-     */
-    Particle getParticles_ ( )     {
-        return particles_;
-    }
-
-    /**
-     * Set the value of sources_
-     * @param new_var the new value of sources_
-     */
-    void setSources_ ( PointSource new_var )     {
-            sources_ = new_var;
-    }
-
-    /**
-     * Get the value of sources_
-     * @return the value of sources_
-     */
-    PointSource getSources_ ( )     {
-        return sources_;
-    }
-
-    /**
-     * Set the value of modifiers_
-     * @param new_var the new value of modifiers_
-     */
-    void setModifiers_ ( Modifier new_var )     {
-            modifiers_ = new_var;
-    }
-
-    /**
-     * Get the value of modifiers_
-     * @return the value of modifiers_
-     */
-    Modifier getModifiers_ ( )     {
-        return modifiers_;
-    }
-private:
-
-
-
-    /**
-     * @param  mass
-     * @param  position
-     * @param  velocity
-     * @param  life
-     */
-    void CreateParticle (float mass = 1.0, vec3 position, vec3 velocity, float life )
-    {
-    }
-
-    void initAttributes ( ) ;
-
+ private:
+    Particle particles[];
+    ParticleModifier &*modifiers[];
+    ParticleEmitter &*emitters[];
+    u32 currentCount;
 };
 
-#endif // PARTICLESYSTEM_H
+#endif // ParticleSystem_h

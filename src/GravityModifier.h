@@ -1,108 +1,17 @@
+#ifndef GravityModifier_h
+#define GravityModifier_h
 
-#ifndef GRAVITYMODIFIER_H
-#define GRAVITYMODIFIER_H
-#include "Modifier.h"
-
-#include <string>
-
-/**
-  * class GravityModifier
-  * 
-  */
-
-class GravityModifier : virtual public Modifier
-{
-public:
-
-    // Constructors/Destructors
-    //  
+#include "ParticleModifier.h"
+#include "f32.h"
+#include "vec3.h"
 
 
-    /**
-     * Empty Constructor
-     */
-    GravityModifier ( );
-
-    /**
-     * Empty Destructor
-     */
-    virtual ~GravityModifier ( );
-
-    // Static Public attributes
-    //  
-
-    // Public attributes
-    //  
+class GravityModifier : public ParticleModifier {
 
 
-    // Public attribute accessor methods
-    //  
-
-
-    // Public attribute accessor methods
-    //  
-
-
-
-    /**
-     * @param  particles_
-     * @param  dt
-     */
-    void UpdateParticles (Particle particles_, float dt )
-    {
-    }
-
-protected:
-
-    // Static Protected attributes
-    //  
-
-    // Protected attributes
-    //  
-
-public:
-
-
-    // Protected attribute accessor methods
-    //  
-
-protected:
-
-public:
-
-
-    // Protected attribute accessor methods
-    //  
-
-protected:
-
-
-private:
-
-    // Static Private attributes
-    //  
-
-    // Private attributes
-    //  
-
-public:
-
-
-    // Private attribute accessor methods
-    //  
-
-private:
-
-public:
-
-
-    // Private attribute accessor methods
-    //  
-
-private:
-
-
-
+ protected:
+    vec3 position;
+    f32 force;
 };
 
-#endif // GRAVITYMODIFIER_H
+#endif // GravityModifier_h
