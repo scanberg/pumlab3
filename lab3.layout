@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <CodeBlocks_layout_file>
 	<ActiveTarget name="Debug" />
-	<File name="src/main.cpp" open="1" top="1" tabpos="1">
-		<Cursor position="251" topLine="0" />
+	<File name="src\GravityModifier.cpp" open="1" top="0" tabpos="1">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="src\GravityModifier.h" open="1" top="0" tabpos="5">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="src\ParticleEmitter.cpp" open="1" top="0" tabpos="2">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="src\ParticleEmitter.h" open="1" top="0" tabpos="6">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="src\ParticleModifier.h" open="1" top="0" tabpos="7">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="src\ParticleSystem.cpp" open="1" top="0" tabpos="3">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="src\PointEmitter.h" open="0" top="0" tabpos="0">
+		<Cursor position="96" topLine="0" />
+	</File>
+	<File name="src\Types.h" open="1" top="1" tabpos="8">
+		<Cursor position="584" topLine="0" />
+	</File>
+	<File name="src\WindModifier.cpp" open="1" top="0" tabpos="4">
+		<Cursor position="0" topLine="0" />
 	</File>
 </CodeBlocks_layout_file>
