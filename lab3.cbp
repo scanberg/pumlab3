@@ -13,10 +13,9 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
-					<Add directory="/usr/include/qt4/" />
 				</Compiler>
 				<Linker>
-					<Add library="/usr/lib/qt4" />
+					<Add library="glfw" />
 				</Linker>
 			</Target>
 			<Target title="Release">
@@ -25,17 +24,31 @@
 				<Option type="1" />
 				<Option compiler="gcc" />
 				<Compiler>
-					<Add option="-O2" />
+					<Add option="-O3" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
 				</Linker>
 			</Target>
 		</Build>
-		<Compiler>
-			<Add option="-Wall" />
-		</Compiler>
-		<Unit filename="src/main.cpp" />
+		<Unit filename="src/ConeEmitter.cpp" />
+		<Unit filename="src/ConeEmitter.h" />
+		<Unit filename="src/GravityModifier.cpp" />
+		<Unit filename="src/GravityModifier.h" />
+		<Unit filename="src/Particle.cpp" />
+		<Unit filename="src/Particle.h" />
+		<Unit filename="src/ParticleEmitter.cpp" />
+		<Unit filename="src/ParticleEmitter.h" />
+		<Unit filename="src/ParticleModifier.cpp" />
+		<Unit filename="src/ParticleModifier.h" />
+		<Unit filename="src/ParticleSystem.cpp" />
+		<Unit filename="src/ParticleSystem.h" />
+		<Unit filename="src/PointEmitter.cpp" />
+		<Unit filename="src/PointEmitter.h" />
+		<Unit filename="src/Types.h" />
+		<Unit filename="src/WindModifier.cpp" />
+		<Unit filename="src/WindModifier.h" />
+		<Unit filename="src/test.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />

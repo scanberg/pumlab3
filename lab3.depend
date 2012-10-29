@@ -554,3 +554,83 @@
 	<QtCore/qlist.h>
 	<QtGui/qpixmap.h>
 
+1351515713 source:/home/robsk789/privat_stuff/TNM090/lab3/src/ConeEmitter.cpp
+	"ConeEmitter.h"
+
+1351518832 /home/robsk789/privat_stuff/TNM090/lab3/src/ConeEmitter.h
+	"Types.h"
+	"ParticleSystem.h"
+	"PointEmitter.h"
+
+1351519939 /home/robsk789/privat_stuff/TNM090/lab3/src/Types.h
+	<GL/glfw.h>
+	<glm/glm.hpp>
+	<glm/gtc/quaternion.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtx/random.hpp>
+	<omp.h>
+
+1351519237 /home/robsk789/privat_stuff/TNM090/lab3/src/ParticleSystem.h
+	<vector>
+	"Types.h"
+	"Particle.h"
+	"ParticleEmitter.h"
+	"ParticleModifier.h"
+
+1351515433 /home/robsk789/privat_stuff/TNM090/lab3/src/Particle.h
+	"Types.h"
+
+1351518820 /home/robsk789/privat_stuff/TNM090/lab3/src/ParticleEmitter.h
+	"Types.h"
+	"ParticleSystem.h"
+
+1351515795 /home/robsk789/privat_stuff/TNM090/lab3/src/ParticleModifier.h
+	"Types.h"
+	"ParticleSystem.h"
+
+1351518771 /home/robsk789/privat_stuff/TNM090/lab3/src/PointEmitter.h
+	"Types.h"
+	"ParticleEmitter.h"
+	"ParticleSystem.h"
+
+1351515628 source:/home/robsk789/privat_stuff/TNM090/lab3/src/GravityModifier.cpp
+	"GravityModifier.h"
+
+1351519786 /home/robsk789/privat_stuff/TNM090/lab3/src/GravityModifier.h
+	"Types.h"
+	"ParticleModifier.h"
+	"ParticleSystem.h"
+
+1351514662 source:/home/robsk789/privat_stuff/TNM090/lab3/src/Particle.cpp
+	"Particle.h"
+
+1351515779 source:/home/robsk789/privat_stuff/TNM090/lab3/src/ParticleEmitter.cpp
+	"ParticleEmitter.h"
+
+1351511887 source:/home/robsk789/privat_stuff/TNM090/lab3/src/ParticleModifier.cpp
+	"ParticleModifier.h"
+
+1351519816 source:/home/robsk789/privat_stuff/TNM090/lab3/src/ParticleSystem.cpp
+	"ParticleSystem.h"
+	"PointEmitter.h"
+	"ConeEmitter.h"
+	"GravityModifier.h"
+	"WindModifier.h"
+
+1351519210 source:/home/robsk789/privat_stuff/TNM090/lab3/src/PointEmitter.cpp
+	"PointEmitter.h"
+
+1351516438 source:/home/robsk789/privat_stuff/TNM090/lab3/src/WindModifier.cpp
+	"WindModifier.h"
+
+1351516000 /home/robsk789/privat_stuff/TNM090/lab3/src/WindModifier.h
+	"Types.h"
+	"ParticleModifier.h"
+	"ParticleSystem.h"
+
+1351519865 source:/home/robsk789/privat_stuff/TNM090/lab3/src/test.cpp
+	"Types.h"
+	<cstdio>
+	"ParticleSystem.h"
+
