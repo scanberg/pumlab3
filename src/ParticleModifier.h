@@ -6,9 +6,9 @@
 
 class ParticleModifier {
 
- public:
-
+public:
     virtual void modify(ParticleSystem *ps) = 0;
+    virtual void draw() {};
 };
 
 #endif // ParticleModifier_h

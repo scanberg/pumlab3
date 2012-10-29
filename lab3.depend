@@ -634,3 +634,83 @@
 	<cstdio>
 	"ParticleSystem.h"
 
+1351544525 source:c:\users\gurido\documents\github\pumlab3\src\coneemitter.cpp
+	"ConeEmitter.h"
+
+1351541026 c:\users\gurido\documents\github\pumlab3\src\coneemitter.h
+	"Types.h"
+	"ParticleSystem.h"
+	"PointEmitter.h"
+
+1351524346 c:\users\gurido\documents\github\pumlab3\src\types.h
+	<GL/glfw.h>
+	<glm/glm.hpp>
+	<glm/gtc/quaternion.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtx/random.hpp>
+	<omp.h>
+
+1351541167 c:\users\gurido\documents\github\pumlab3\src\particlesystem.h
+	<vector>
+	"Types.h"
+	"Particle.h"
+	"ParticleEmitter.h"
+	"ParticleModifier.h"
+
+1351529046 c:\users\gurido\documents\github\pumlab3\src\particle.h
+	"Types.h"
+
+1351533597 c:\users\gurido\documents\github\pumlab3\src\particleemitter.h
+	"Types.h"
+	"ParticleSystem.h"
+
+1351530744 c:\users\gurido\documents\github\pumlab3\src\particlemodifier.h
+	"Types.h"
+	"ParticleSystem.h"
+
+1351542501 c:\users\gurido\documents\github\pumlab3\src\pointemitter.h
+	"Types.h"
+	"ParticleEmitter.h"
+	"ParticleSystem.h"
+
+1351541615 source:c:\users\gurido\documents\github\pumlab3\src\gravitymodifier.cpp
+	"GravityModifier.h"
+
+1351531323 c:\users\gurido\documents\github\pumlab3\src\gravitymodifier.h
+	"Types.h"
+	"ParticleModifier.h"
+	"ParticleSystem.h"
+
+1351528519 source:c:\users\gurido\documents\github\pumlab3\src\particle.cpp
+	"Particle.h"
+
+1351524346 source:c:\users\gurido\documents\github\pumlab3\src\particleemitter.cpp
+	"ParticleEmitter.h"
+
+1351524346 source:c:\users\gurido\documents\github\pumlab3\src\particlemodifier.cpp
+	"ParticleModifier.h"
+
+1351542342 source:c:\users\gurido\documents\github\pumlab3\src\particlesystem.cpp
+	"ParticleSystem.h"
+	"PointEmitter.h"
+	"ConeEmitter.h"
+	"GravityModifier.h"
+	"WindModifier.h"
+
+1351534958 c:\users\gurido\documents\github\pumlab3\src\windmodifier.h
+	"Types.h"
+	"ParticleModifier.h"
+	"ParticleSystem.h"
+
+1351531373 source:c:\users\gurido\documents\github\pumlab3\src\pointemitter.cpp
+	"PointEmitter.h"
+
+1351541627 source:c:\users\gurido\documents\github\pumlab3\src\windmodifier.cpp
+	"WindModifier.h"
+
+1351541812 source:c:\users\gurido\documents\github\pumlab3\src\test.cpp
+	"Types.h"
+	<cstdio>
+	"ParticleSystem.h"
+

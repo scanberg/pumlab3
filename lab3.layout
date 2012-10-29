@@ -1,55 +1,49 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <CodeBlocks_layout_file>
-	<ActiveTarget name="Debug" />
-	<File name="src/ConeEmitter.cpp" open="1" top="0" tabpos="12">
-		<Cursor position="426" topLine="0" />
+	<ActiveTarget name="Release" />
+	<File name="src\ConeEmitter.cpp" open="1" top="1" tabpos="11">
+		<Cursor position="541" topLine="0" />
 	</File>
-	<File name="src/ConeEmitter.h" open="1" top="0" tabpos="11">
-		<Cursor position="288" topLine="0" />
+	<File name="src\ConeEmitter.h" open="1" top="0" tabpos="10">
+		<Cursor position="898" topLine="0" />
 	</File>
-	<File name="src/GravityModifier.cpp" open="1" top="0" tabpos="10">
-		<Cursor position="385" topLine="0" />
-	</File>
-	<File name="src/GravityModifier.h" open="1" top="0" tabpos="9">
-		<Cursor position="300" topLine="0" />
-	</File>
-	<File name="src/Particle.cpp" open="1" top="0" tabpos="7">
-		<Cursor position="63" topLine="0" />
-	</File>
-	<File name="src/Particle.h" open="1" top="0" tabpos="3">
-		<Cursor position="160" topLine="0" />
-	</File>
-	<File name="src/ParticleEmitter.cpp" open="1" top="0" tabpos="13">
-		<Cursor position="436" topLine="0" />
-	</File>
-	<File name="src/ParticleEmitter.h" open="1" top="0" tabpos="4">
-		<Cursor position="242" topLine="0" />
-	</File>
-	<File name="src/ParticleModifier.h" open="1" top="0" tabpos="5">
-		<Cursor position="187" topLine="0" />
-	</File>
-	<File name="src/ParticleSystem.cpp" open="1" top="0" tabpos="17">
-		<Cursor position="133" topLine="0" />
-	</File>
-	<File name="src/ParticleSystem.h" open="1" top="0" tabpos="6">
-		<Cursor position="487" topLine="12" />
-	</File>
-	<File name="src/PointEmitter.cpp" open="1" top="0" tabpos="15">
+	<File name="src\GravityModifier.cpp" open="1" top="0" tabpos="9">
 		<Cursor position="346" topLine="0" />
 	</File>
-	<File name="src/PointEmitter.h" open="1" top="0" tabpos="14">
-		<Cursor position="245" topLine="0" />
+	<File name="src\GravityModifier.h" open="1" top="0" tabpos="8">
+		<Cursor position="496" topLine="0" />
 	</File>
-	<File name="src/Types.h" open="1" top="0" tabpos="2">
-		<Cursor position="375" topLine="0" />
+	<File name="src\Particle.h" open="1" top="0" tabpos="3">
+		<Cursor position="203" topLine="0" />
 	</File>
-	<File name="src/WindModifier.cpp" open="1" top="0" tabpos="16">
-		<Cursor position="148" topLine="0" />
+	<File name="src\ParticleEmitter.h" open="1" top="0" tabpos="4">
+		<Cursor position="200" topLine="0" />
 	</File>
-	<File name="src/WindModifier.h" open="1" top="0" tabpos="8">
-		<Cursor position="300" topLine="0" />
+	<File name="src\ParticleModifier.h" open="1" top="0" tabpos="5">
+		<Cursor position="221" topLine="0" />
 	</File>
-	<File name="src/test.cpp" open="1" top="1" tabpos="1">
-		<Cursor position="1202" topLine="21" />
+	<File name="src\ParticleSystem.cpp" open="1" top="0" tabpos="15">
+		<Cursor position="768" topLine="0" />
+	</File>
+	<File name="src\ParticleSystem.h" open="1" top="0" tabpos="6">
+		<Cursor position="557" topLine="0" />
+	</File>
+	<File name="src\PointEmitter.cpp" open="1" top="0" tabpos="13">
+		<Cursor position="360" topLine="0" />
+	</File>
+	<File name="src\PointEmitter.h" open="1" top="0" tabpos="12">
+		<Cursor position="925" topLine="0" />
+	</File>
+	<File name="src\Types.h" open="1" top="0" tabpos="2">
+		<Cursor position="58" topLine="0" />
+	</File>
+	<File name="src\WindModifier.cpp" open="1" top="0" tabpos="14">
+		<Cursor position="685" topLine="0" />
+	</File>
+	<File name="src\WindModifier.h" open="1" top="0" tabpos="7">
+		<Cursor position="455" topLine="0" />
+	</File>
+	<File name="src\test.cpp" open="1" top="0" tabpos="1">
+		<Cursor position="1783" topLine="0" />
 	</File>
 </CodeBlocks_layout_file>

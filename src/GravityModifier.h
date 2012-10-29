@@ -7,6 +7,7 @@
 
 
 class GravityModifier : public ParticleModifier {
+friend class ParticleSystem;
 
  public:
 
@@ -17,13 +18,12 @@ class GravityModifier : public ParticleModifier {
     }
 
     virtual void modify(ParticleSystem *ps);
+    virtual void draw();
 
     virtual void setPosition(vec3 _position) { position = _position; }
-
     virtual void setForce(f32 _force) { force = _force; }
 
     virtual vec3 getPosition() { return position; }
-
     virtual f32 getForce() { return force; }
 
 

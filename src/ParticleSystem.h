@@ -1,13 +1,13 @@
 #ifndef ParticleSystem_h
 #define ParticleSystem_h
 
+#define PS_UPDATE_RATE 60
+
 class Particle;
 class ParticleModifier;
 class GravityModifier;
 class WindModifier;
 class ParticleEmitter;
-//class PointEmitter;
-class ConeEmitter;
 
 #include <vector>
 
@@ -20,19 +20,17 @@ class ParticleSystem {
 
  public:
 
+    ParticleSystem();
     virtual ~ParticleSystem();
 
     virtual void update(f32 deltaTime);
-
     virtual void draw();
 
     virtual void createPointEmitter(u8 spawnRate, vec2 lifeInterval, vec3 position, vec2 speedInterval);
-
-    virtual void createConeEmitter(u8 spawnRate, vec2 lifeInterval, vec3 position, vec2 speedInterval, vec2 spreadInterval);
+    virtual void createConeEmitter(u8 spawnRate, vec2 lifeInterval, vec3 position, vec2 speedInterval, vec3 direction, f32 spreadAngle);
 
     virtual void createGravityModifier(vec3 position, f32 force);
-
-    virtual void createWindModifier(vec3 position, vec3 direction, f32 force);
+    virtual void createWindModifier(vec3 position, vec3 force);
 
 friend class ParticleModifier;
 friend class GravityModifier;
@@ -44,13 +42,16 @@ friend class ConeEmitter;
  private:
 
     virtual void createParticle(vec3 position, vec3 velocity, f32 life);
-
+    virtual void updateNeeds();
 
  private:
     std::vector< Particle > particles;
     std::vector< ParticleModifier* > modifiers;
     std::vector< ParticleEmitter* > emitters;
+
     u32 currentCount;
+
+    u32 maxCount;
 };
 
 #endif // ParticleSystem_h

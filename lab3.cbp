@@ -7,20 +7,17 @@
 		<Option compiler="gcc" />
 		<Build>
 			<Target title="Debug">
-				<Option output="bin/Debug/lab3" prefix_auto="1" extension_auto="1" />
-				<Option object_output="obj/Debug/" />
+				<Option output="bin\Debug\lab3" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Debug\" />
 				<Option type="1" />
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
 				</Compiler>
-				<Linker>
-					<Add library="glfw" />
-				</Linker>
 			</Target>
 			<Target title="Release">
-				<Option output="bin/Release/lab3" prefix_auto="1" extension_auto="1" />
-				<Option object_output="obj/Release/" />
+				<Option output="bin\Release\lab3" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Release\" />
 				<Option type="1" />
 				<Option compiler="gcc" />
 				<Compiler>
@@ -31,24 +28,25 @@
 				</Linker>
 			</Target>
 		</Build>
-		<Unit filename="src/ConeEmitter.cpp" />
-		<Unit filename="src/ConeEmitter.h" />
-		<Unit filename="src/GravityModifier.cpp" />
-		<Unit filename="src/GravityModifier.h" />
-		<Unit filename="src/Particle.cpp" />
-		<Unit filename="src/Particle.h" />
-		<Unit filename="src/ParticleEmitter.cpp" />
-		<Unit filename="src/ParticleEmitter.h" />
-		<Unit filename="src/ParticleModifier.cpp" />
-		<Unit filename="src/ParticleModifier.h" />
-		<Unit filename="src/ParticleSystem.cpp" />
-		<Unit filename="src/ParticleSystem.h" />
-		<Unit filename="src/PointEmitter.cpp" />
-		<Unit filename="src/PointEmitter.h" />
-		<Unit filename="src/Types.h" />
-		<Unit filename="src/WindModifier.cpp" />
-		<Unit filename="src/WindModifier.h" />
-		<Unit filename="src/test.cpp" />
+		<Linker>
+			<Add library="glfw" />
+			<Add library="opengl32" />
+		</Linker>
+		<Unit filename="src\ConeEmitter.cpp" />
+		<Unit filename="src\ConeEmitter.h" />
+		<Unit filename="src\GravityModifier.cpp" />
+		<Unit filename="src\GravityModifier.h" />
+		<Unit filename="src\Particle.h" />
+		<Unit filename="src\ParticleEmitter.h" />
+		<Unit filename="src\ParticleModifier.h" />
+		<Unit filename="src\ParticleSystem.cpp" />
+		<Unit filename="src\ParticleSystem.h" />
+		<Unit filename="src\PointEmitter.cpp" />
+		<Unit filename="src\PointEmitter.h" />
+		<Unit filename="src\Types.h" />
+		<Unit filename="src\WindModifier.cpp" />
+		<Unit filename="src\WindModifier.h" />
+		<Unit filename="src\test.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />

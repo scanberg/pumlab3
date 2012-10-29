@@ -10,25 +10,30 @@ class WindModifier : public ParticleModifier {
 
  public:
 
+    WindModifier()
+    {
+        force = vec3(1,0,0);
+    }
+
+    WindModifier(vec3 _position, vec3 _force)
+    {
+        setPosition(_position);
+        setForce(_force);
+    }
+
     virtual void modify(ParticleSystem *ps);
+    virtual void draw();
 
     virtual void setPosition(vec3 _position) { position = _position; }
-
-    virtual void setDirection(vec3 _direction) { direction = _direction; }
-
-    virtual void setForce(f32 _force) { force = _force; }
+    virtual void setForce(vec3 _force) { force = _force; }
 
     virtual vec3 getPosition() { return position; }
-
-    virtual vec3 getDirection() { return direction; }
-
-    virtual f32 getForce() { return force; }
+    virtual vec3 getForce() { return force; }
 
 
  protected:
     vec3 position;
-    vec3 direction;
-    f32 force;
+    vec3 force;
 };
 
 #endif // WindModifier_h

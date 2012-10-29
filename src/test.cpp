@@ -19,6 +19,22 @@ void setupCamera()
     glMatrixMode(GL_PROJECTION); // Edit projectmatrix for legacy mode
     mat4 projMat = glm::perspective( 60.0f, (f32)screensize.x/(f32)screensize.y, 0.1f, 100.0f );
     glLoadMatrixf(&projMat[0][0]);
+
+    glMatrixMode(GL_MODELVIEW);
+    mat4 viewMat = glm::translate(mat4(1.0),-vec3(0,0,8));
+    glLoadMatrixf(glm::value_ptr(viewMat));
+
+}
+
+f64 getDeltaTime()
+{
+    static f64 oldTime=glfwGetTime();
+    f64 time = glfwGetTime();
+    f64 dt = time - oldTime;
+
+    oldTime = time;
+
+    return dt;
 }
 
 int main()
@@ -37,20 +53,22 @@ int main()
 	    printf("sucessfully created GLFW window with GL version %d.%d\n", major, minor);
 	}
 
+	glfwSwapInterval(1);
+
 	//Init
     ParticleSystem ps;
 
-    ps.createPointEmitter(1, vec2(0.1,1.0), vec3(0,0,-2), vec2(0.1,1.0) );
+    ps.createPointEmitter(255, vec2(2.0,2.0), vec3(0,0,0), vec2(0.03,0.08) );
 
-    ps.createGravityModifier(vec3(1,1,-2), 100.0f);
-
+    ps.createGravityModifier(vec3(2,1,0), 10.0f);
+    ps.createWindModifier(vec3(0,1,0),vec3(-5,0,0));
 
 	bool running = true;
 	while(running)
 	{
 		glClear(GL_DEPTH_BUFFER_BIT | GL_COLOR_BUFFER_BIT);
 
-		glMatrixMode(GL_MODELVIEW_MATRIX);
+		setupCamera();
 
 		ps.update(1/60.0f);
 		ps.draw();

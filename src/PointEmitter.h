@@ -24,15 +24,13 @@ class PointEmitter : public ParticleEmitter {
     }
 
     virtual void emit(ParticleSystem *ps);
+    virtual void draw();
 
     virtual void setPosition(vec3 _position) { position = _position; }
-
     virtual void setSpeedInterval(vec2 interval) { speedInterval = interval; }
 
     virtual vec3 getPosition() { return position; }
-
     virtual vec2 getSpeedInterval() { return speedInterval;}
-
 
  protected:
     vec3 position;
