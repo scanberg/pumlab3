@@ -1,9 +1,12 @@
 FILE(REMOVE_RECURSE
   "CMakeFiles/myexample.dir/myexample.o"
+  "CMakeFiles/myexample.dir/myopengl.o"
   "CMakeFiles/myexample.dir/main.o"
   "CMakeFiles/myexample.dir/moc_myexample.o"
+  "CMakeFiles/myexample.dir/moc_myopengl.o"
   "CMakeFiles/myexample.dir/moc_ui_myexample.o"
   "moc_myexample.cxx"
+  "moc_myopengl.cxx"
   "moc_ui_myexample.cxx"
   "ui_myexample.h"
   "myexample.pdb"

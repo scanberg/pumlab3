@@ -6,37 +6,74 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>143</width>
-    <height>70</height>
+    <width>503</width>
+    <height>402</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
    <layout class="QHBoxLayout" name="horizontalLayout">
     <item>
-     <widget class="QPushButton" name="pushButtonA">
-      <property name="sizePolicy">
-       <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
-        <horstretch>0</horstretch>
-        <verstretch>0</verstretch>
-       </sizepolicy>
-      </property>
-      <property name="text">
-       <string>A</string>
-      </property>
-     </widget>
-    </item>
-    <item>
-     <widget class="QPushButton" name="pushButtonB">
-      <property name="text">
-       <string>B</string>
-      </property>
-     </widget>
-    </item>
-    <item>
-     <widget class="QLineEdit" name="text"/>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="MyOpenGL" name="widget" native="true">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QTextEdit" name="text">
+        <property name="minimumSize">
+         <size>
+          <width>0</width>
+          <height>20</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>16777215</width>
+          <height>20</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_2">
+        <item>
+         <widget class="QPushButton" name="pushButton_2">
+          <property name="text">
+           <string>Teapot</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="pushButton">
+          <property name="text">
+           <string>Dodecahedron</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
     </item>
    </layout>
   </widget>
@@ -45,7 +82,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>143</width>
+     <width>503</width>
      <height>20</height>
     </rect>
    </property>
@@ -64,6 +101,18 @@
    </property>
   </action>
  </widget>
+ <customwidgets>
+  <customwidget>
+   <class>MyOpenGL</class>
+   <extends>QWidget</extends>
+   <header>myopengl.hh</header>
+   <container>1</container>
+   <slots>
+    <slot>buttonTeapot(bool)</slot>
+    <slot>buttonDodecahedron(bool)</slot>
+   </slots>
+  </customwidget>
+ </customwidgets>
  <resources/>
  <connections>
   <connection>
@@ -83,57 +132,73 @@
    </hints>
   </connection>
   <connection>
-   <sender>pushButtonA</sender>
+   <sender>pushButton_2</sender>
    <signal>clicked(bool)</signal>
    <receiver>myexampleMainWindow</receiver>
-   <slot>buttonA(bool)</slot>
+   <slot>buttonTeapot(bool)</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>36</x>
-     <y>46</y>
+     <x>155</x>
+     <y>357</y>
     </hint>
     <hint type="destinationlabel">
-     <x>142</x>
+     <x>213</x>
      <y>0</y>
     </hint>
    </hints>
   </connection>
   <connection>
-   <sender>pushButtonB</sender>
+   <sender>pushButton</sender>
    <signal>clicked(bool)</signal>
    <receiver>myexampleMainWindow</receiver>
-   <slot>buttonB(bool)</slot>
+   <slot>buttonDodecahedron(bool)</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>57</x>
-     <y>35</y>
+     <x>482</x>
+     <y>357</y>
     </hint>
     <hint type="destinationlabel">
-     <x>85</x>
-     <y>-7</y>
+     <x>337</x>
+     <y>0</y>
     </hint>
    </hints>
   </connection>
   <connection>
-   <sender>text</sender>
-   <signal>textChanged(QString)</signal>
-   <receiver>statusbar</receiver>
-   <slot>showMessage(QString)</slot>
+   <sender>pushButton_2</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>widget</receiver>
+   <slot>buttonTeapot(bool)</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>106</x>
-     <y>36</y>
+     <x>94</x>
+     <y>357</y>
     </hint>
     <hint type="destinationlabel">
-     <x>104</x>
-     <y>56</y>
+     <x>107</x>
+     <y>126</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked(bool)</signal>
+   <receiver>widget</receiver>
+   <slot>buttonDodecahedron(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>361</x>
+     <y>357</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>328</x>
+     <y>164</y>
     </hint>
    </hints>
   </connection>
  </connections>
  <slots>
   <slot>handleMenuAction(QAction*)</slot>
-  <slot>buttonA(bool)</slot>
-  <slot>buttonB(bool)</slot>
+  <slot>buttonTeapot(bool)</slot>
+  <slot>buttonDodecahedron(bool)</slot>
  </slots>
 </ui>

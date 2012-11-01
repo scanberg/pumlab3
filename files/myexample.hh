@@ -22,10 +22,10 @@ public slots:
   
   void handleMenuAction(QAction *action);
   
-  void buttonA(bool state);
+  void buttonTeapot(bool state);
   
-  void buttonB(bool state);
-  
+  void buttonDodecahedron(bool state);
+
 private:
   
 };

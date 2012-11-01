@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'myexample.hh'
 **
-** Created: Mon Oct 8 15:58:14 2012
+** Created: Thu Nov 1 10:34:12 2012
 **      by: The Qt Meta Object Compiler version 63 (Qt 4.8.1)
 **
 ** WARNING! All changes made in this file will be lost!
@@ -33,14 +33,15 @@ static const uint qt_meta_data_myexample[] = {
  // slots: signature, parameters, type, tag, flags
       18,   11,   10,   10, 0x0a,
       51,   45,   10,   10, 0x0a,
-      65,   45,   10,   10, 0x0a,
+      70,   45,   10,   10, 0x0a,
 
        0        // eod
 };
 
 static const char qt_meta_stringdata_myexample[] = {
     "myexample\0\0action\0handleMenuAction(QAction*)\0"
-    "state\0buttonA(bool)\0buttonB(bool)\0"
+    "state\0buttonTeapot(bool)\0"
+    "buttonDodecahedron(bool)\0"
 };
 
 void myexample::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
@@ -50,8 +51,8 @@ void myexample::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, v
         myexample *_t = static_cast<myexample *>(_o);
         switch (_id) {
         case 0: _t->handleMenuAction((*reinterpret_cast< QAction*(*)>(_a[1]))); break;
-        case 1: _t->buttonA((*reinterpret_cast< bool(*)>(_a[1]))); break;
-        case 2: _t->buttonB((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 1: _t->buttonTeapot((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 2: _t->buttonDodecahedron((*reinterpret_cast< bool(*)>(_a[1]))); break;
         default: ;
         }
     }

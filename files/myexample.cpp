@@ -14,12 +14,12 @@ void myexample::handleMenuAction(QAction *action){
   }
 }
 
-void myexample::buttonA(bool state){
-  text->setText("A");
+void myexample::buttonTeapot(bool state){
+  text->setText("Showing Teapot");
 }
 
-void myexample::buttonB(bool state){
-  text->setText("B");
+void myexample::buttonDodecahedron(bool state){
+  text->setText("Showing Dodecahedron");
 }
 
 

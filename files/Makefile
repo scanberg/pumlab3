@@ -142,6 +142,21 @@ moc_myexample.s:
 .PHONY : moc_myexample.s
 
 # target to build an object file
+moc_myopengl.o:
+	$(MAKE) -f CMakeFiles/myexample.dir/build.make CMakeFiles/myexample.dir/moc_myopengl.o
+.PHONY : moc_myopengl.o
+
+# target to preprocess a source file
+moc_myopengl.i:
+	$(MAKE) -f CMakeFiles/myexample.dir/build.make CMakeFiles/myexample.dir/moc_myopengl.i
+.PHONY : moc_myopengl.i
+
+# target to generate assembly for a file
+moc_myopengl.s:
+	$(MAKE) -f CMakeFiles/myexample.dir/build.make CMakeFiles/myexample.dir/moc_myopengl.s
+.PHONY : moc_myopengl.s
+
+# target to build an object file
 moc_ui_myexample.o:
 	$(MAKE) -f CMakeFiles/myexample.dir/build.make CMakeFiles/myexample.dir/moc_ui_myexample.o
 .PHONY : moc_ui_myexample.o
@@ -171,6 +186,21 @@ myexample.s:
 	$(MAKE) -f CMakeFiles/myexample.dir/build.make CMakeFiles/myexample.dir/myexample.s
 .PHONY : myexample.s
 
+# target to build an object file
+myopengl.o:
+	$(MAKE) -f CMakeFiles/myexample.dir/build.make CMakeFiles/myexample.dir/myopengl.o
+.PHONY : myopengl.o
+
+# target to preprocess a source file
+myopengl.i:
+	$(MAKE) -f CMakeFiles/myexample.dir/build.make CMakeFiles/myexample.dir/myopengl.i
+.PHONY : myopengl.i
+
+# target to generate assembly for a file
+myopengl.s:
+	$(MAKE) -f CMakeFiles/myexample.dir/build.make CMakeFiles/myexample.dir/myopengl.s
+.PHONY : myopengl.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -186,12 +216,18 @@ help:
 	@echo "... moc_myexample.o"
 	@echo "... moc_myexample.i"
 	@echo "... moc_myexample.s"
+	@echo "... moc_myopengl.o"
+	@echo "... moc_myopengl.i"
+	@echo "... moc_myopengl.s"
 	@echo "... moc_ui_myexample.o"
 	@echo "... moc_ui_myexample.i"
 	@echo "... moc_ui_myexample.s"
 	@echo "... myexample.o"
 	@echo "... myexample.i"
 	@echo "... myexample.s"
+	@echo "... myopengl.o"
+	@echo "... myopengl.i"
+	@echo "... myopengl.s"
 .PHONY : help
 
 

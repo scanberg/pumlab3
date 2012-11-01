@@ -2,11 +2,15 @@ project(myexample)
 
 cmake_minimum_required(VERSION 2.4.0)
 
+SET(QT_USE_QTOPENGL TRUE)
+
 find_package(Qt4 REQUIRED)
 include(${QT_USE_FILE})
+add_definitions(${QT_DEFINITIONS})
 
-set(myexample_SRCS myexample.cpp main.cpp)
-set(myexample_MOC_SRCS myexample.hh)
+set(myexample_SRCS myexample.cpp myopengl.cpp main.cpp)
+set(myexample_HEADERS myexample.hh myopengl.hh)
+set(myexample_MOC_SRCS myexample.hh myopengl.hh)
 set(myexample_UIS myexample.ui)
 #set(myexample_RCCS myexample.qrc)
 
@@ -17,6 +21,7 @@ qt4_wrap_cpp(myexample_MOC_UI ${myexample_UIS_HH})
 
 add_executable(myexample
     ${myexample_SRCS}
+    ${myexample_HEADERS}
     ${myexample_MOCS}
     ${myexample_MOC_UI})
 

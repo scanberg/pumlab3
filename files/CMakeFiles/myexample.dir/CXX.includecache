@@ -14,6 +14,10 @@ myexample.hh
 myexample.hh
 /home/robsk789/privat_stuff/TNM090/lab3/files/myexample.hh
 
+/home/robsk789/privat_stuff/TNM090/lab3/files/moc_myopengl.cxx
+myopengl.hh
+/home/robsk789/privat_stuff/TNM090/lab3/files/myopengl.hh
+
 /home/robsk789/privat_stuff/TNM090/lab3/files/moc_ui_myexample.cxx
 
 /home/robsk789/privat_stuff/TNM090/lab3/files/myexample.cpp
@@ -26,6 +30,22 @@ ui_myexample.h
 QTimer
 -
 QMutex
+-
+
+/home/robsk789/privat_stuff/TNM090/lab3/files/myopengl.cpp
+myopengl.hh
+/home/robsk789/privat_stuff/TNM090/lab3/files/myopengl.hh
+GL/glut.h
+-
+QMouseEvent
+-
+QTimer
+-
+
+/home/robsk789/privat_stuff/TNM090/lab3/files/myopengl.hh
+QtOpenGL/QGLWidget
+-
+iostream
 -
 
 /home/robsk789/privat_stuff/TNM090/lab3/files/ui_myexample.h
@@ -41,8 +61,6 @@ QtGui/QHBoxLayout
 -
 QtGui/QHeaderView
 -
-QtGui/QLineEdit
--
 QtGui/QMainWindow
 -
 QtGui/QMenu
@@ -53,8 +71,14 @@ QtGui/QPushButton
 -
 QtGui/QStatusBar
 -
+QtGui/QTextEdit
+-
+QtGui/QVBoxLayout
+-
 QtGui/QWidget
 -
+myopengl.hh
+/home/robsk789/privat_stuff/TNM090/lab3/files/myopengl.hh
 
 /usr/include/qt4/Qt3Support/q3cstring.h
 QtCore/qbytearray.h
@@ -584,6 +608,12 @@ Qt3Support/q3valuelist.h
 QtCore/qstring.h
 -
 
+/usr/include/qt4/QtCore/qt_windows.h
+windows.h
+-
+ceconfig.h
+-
+
 /usr/include/qt4/QtCore/qtimer.h
 QtCore/qbasictimer.h
 -
@@ -650,10 +680,6 @@ qboxlayout.h
 qheaderview.h
 /usr/include/qt4/QtGui/qheaderview.h
 
-/usr/include/qt4/QtGui/QLineEdit
-qlineedit.h
-/usr/include/qt4/QtGui/qlineedit.h
-
 /usr/include/qt4/QtGui/QMainWindow
 qmainwindow.h
 /usr/include/qt4/QtGui/qmainwindow.h
@@ -666,9 +692,17 @@ qmenu.h
 qmenubar.h
 /usr/include/qt4/QtGui/qmenubar.h
 
+/usr/include/qt4/QtGui/QMouseEvent
+qevent.h
+/usr/include/qt4/QtGui/qevent.h
+
 /usr/include/qt4/QtGui/QPlatformWindow
 qplatformwindow_qpa.h
 /usr/include/qt4/QtGui/qplatformwindow_qpa.h
+
+/usr/include/qt4/QtGui/QPlatformWindowFormat
+qplatformwindowformat_qpa.h
+/usr/include/qt4/QtGui/qplatformwindowformat_qpa.h
 
 /usr/include/qt4/QtGui/QPushButton
 qpushbutton.h
@@ -677,6 +711,14 @@ qpushbutton.h
 /usr/include/qt4/QtGui/QStatusBar
 qstatusbar.h
 /usr/include/qt4/QtGui/qstatusbar.h
+
+/usr/include/qt4/QtGui/QTextEdit
+qtextedit.h
+/usr/include/qt4/QtGui/qtextedit.h
+
+/usr/include/qt4/QtGui/QVBoxLayout
+qboxlayout.h
+/usr/include/qt4/QtGui/qboxlayout.h
 
 /usr/include/qt4/QtGui/QWidget
 qwidget.h
@@ -814,6 +856,16 @@ QtGui/qwidget.h
 QtCore/qobject.h
 -
 
+/usr/include/qt4/QtGui/qdrawutil.h
+QtCore/qnamespace.h
+-
+QtCore/qstring.h
+-
+QtCore/qmargins.h
+-
+QtGui/qpixmap.h
+-
+
 /usr/include/qt4/QtGui/qevent.h
 QtGui/qwindowdefs.h
 -
@@ -850,6 +902,18 @@ QtCore/qstring.h
 QtCore/qsharedpointer.h
 -
 
+/usr/include/qt4/QtGui/qfontdatabase.h
+QtGui/qwindowdefs.h
+-
+QtCore/qstring.h
+-
+QtGui/qfont.h
+-
+QtCore/qstringlist.h
+-
+QtCore/qlist.h
+-
+
 /usr/include/qt4/QtGui/qfontinfo.h
 QtGui/qfont.h
 -
@@ -866,6 +930,16 @@ QtCore/qrect.h
 
 /usr/include/qt4/QtGui/qframe.h
 QtGui/qwidget.h
+-
+
+/usr/include/qt4/QtGui/qglyphrun.h
+QtCore/qsharedpointer.h
+-
+QtCore/qvector.h
+-
+QtCore/qpoint.h
+-
+QtGui/qrawfont.h
 -
 
 /usr/include/qt4/QtGui/qgridlayout.h
@@ -946,16 +1020,6 @@ QtCore/qrect.h
 limits.h
 -
 
-/usr/include/qt4/QtGui/qlineedit.h
-QtGui/qframe.h
--
-QtGui/qtextcursor.h
--
-QtCore/qstring.h
--
-QtCore/qmargins.h
--
-
 /usr/include/qt4/QtGui/qmacdefines_mac.h
 QtCore/qglobal.h
 -
@@ -1012,6 +1076,48 @@ QtCore/qvariant.h
 QtGui/qwindowdefs.h
 -
 QtCore/qrect.h
+-
+
+/usr/include/qt4/QtGui/qpaintengine.h
+QtCore/qnamespace.h
+-
+QtCore/qobjectdefs.h
+-
+QtCore/qscopedpointer.h
+-
+QtGui/qpainter.h
+-
+
+/usr/include/qt4/QtGui/qpainter.h
+QtCore/qnamespace.h
+-
+QtCore/qrect.h
+-
+QtCore/qpoint.h
+-
+QtCore/qscopedpointer.h
+-
+QtGui/qpixmap.h
+-
+QtGui/qimage.h
+-
+QtGui/qtextoption.h
+-
+QtGui/qdrawutil.h
+-
+QtGui/qpolygon.h
+-
+QtGui/qpen.h
+-
+QtGui/qbrush.h
+-
+QtGui/qmatrix.h
+-
+QtGui/qtransform.h
+-
+QtGui/qfontinfo.h
+-
+QtGui/qfontmetrics.h
 -
 
 /usr/include/qt4/QtGui/qpainterpath.h
@@ -1082,6 +1188,24 @@ QtCore/qrect.h
 
 /usr/include/qt4/QtGui/qpushbutton.h
 QtGui/qabstractbutton.h
+-
+
+/usr/include/qt4/QtGui/qrawfont.h
+QtCore/qstring.h
+-
+QtCore/qiodevice.h
+-
+QtCore/qglobal.h
+-
+QtCore/qobject.h
+-
+QtCore/qpoint.h
+-
+QtGui/qfont.h
+-
+QtGui/qtransform.h
+-
+QtGui/qfontdatabase.h
 -
 
 /usr/include/qt4/QtGui/qregion.h
@@ -1172,6 +1296,32 @@ QtCore/qshareddata.h
 QtGui/qtextformat.h
 -
 
+/usr/include/qt4/QtGui/qtextdocument.h
+QtCore/qobject.h
+-
+QtCore/qsize.h
+-
+QtCore/qrect.h
+-
+QtGui/qfont.h
+-
+
+/usr/include/qt4/QtGui/qtextedit.h
+QtGui/qabstractscrollarea.h
+-
+QtGui/qtextdocument.h
+-
+QtGui/qtextoption.h
+-
+QtGui/qtextcursor.h
+-
+QtGui/qtextformat.h
+-
+QtGui/qtextobject.h
+-
+QtGui/qtextlayout.h
+-
+
 /usr/include/qt4/QtGui/qtextformat.h
 QtGui/qcolor.h
 -
@@ -1188,6 +1338,36 @@ QtGui/qpen.h
 QtGui/qbrush.h
 -
 QtGui/qtextoption.h
+-
+
+/usr/include/qt4/QtGui/qtextlayout.h
+QtCore/qstring.h
+-
+QtCore/qnamespace.h
+-
+QtCore/qrect.h
+-
+QtCore/qvector.h
+-
+QtGui/qcolor.h
+-
+QtCore/qobject.h
+-
+QtGui/qevent.h
+-
+QtGui/qtextformat.h
+-
+QtGui/qglyphrun.h
+-
+QtGui/qtextcursor.h
+-
+
+/usr/include/qt4/QtGui/qtextobject.h
+QtCore/qobject.h
+-
+QtGui/qtextformat.h
+-
+QtGui/qglyphrun.h
 -
 
 /usr/include/qt4/QtGui/qtextoption.h
@@ -1290,5 +1470,43 @@ QtCore/qglobal.h
 
 /usr/include/qt4/QtGui/qwmatrix.h
 QtGui/qmatrix.h
+-
+
+/usr/include/qt4/QtOpenGL/QGLWidget
+qgl.h
+/usr/include/qt4/QtOpenGL/qgl.h
+
+/usr/include/qt4/QtOpenGL/qgl.h
+QtGui/qwidget.h
+-
+QtGui/qpaintengine.h
+-
+QtOpenGL/qglcolormap.h
+-
+QtCore/qmap.h
+-
+QtCore/qscopedpointer.h
+-
+QtGui/QPlatformWindowFormat
+-
+QtCore/qt_windows.h
+-
+OpenGL/gl.h
+-
+OpenGLES/ES1/gl.h
+-
+GLES/gl.h
+-
+OpenGLES/ES2/gl.h
+-
+GLES2/gl2.h
+-
+GL/gl.h
+-
+
+/usr/include/qt4/QtOpenGL/qglcolormap.h
+QtGui/qcolor.h
+-
+QtCore/qvector.h
 -
 
