@@ -1,13 +1,13 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'myopengl.hh'
 **
-** Created: Thu Nov 1 12:34:15 2012
+** Created: Mon Nov 5 14:53:13 2012
 **      by: The Qt Meta Object Compiler version 63 (Qt 4.8.1)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
 
-#include "myopengl.hh"
+#include "../../../../../../robsk789/privat_stuff/TNM090/lab3/qt/myopengl.hh"
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'myopengl.hh' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 63

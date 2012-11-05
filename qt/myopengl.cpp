@@ -110,7 +110,7 @@ void MyOpenGL::paintGL(){
   
   ps.update(1/60.0f);
   ps.draw();
-  
+
   update();
 }
 

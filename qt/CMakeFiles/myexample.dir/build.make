@@ -38,7 +38,7 @@ CMAKE_EDIT_COMMAND = /usr/bin/cmake-gui
 CMAKE_SOURCE_DIR = /home/robsk789/privat_stuff/TNM090/lab3/qt
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/robsk789/privat_stuff/TNM090/lab3/qt
+CMAKE_BINARY_DIR = /home/alesv019/privat_stuff/Kurser/tnm090/pumlab3/qt
 
 # Include any dependencies generated for this target.
 include CMakeFiles/myexample.dir/depend.make
@@ -50,8 +50,8 @@ include CMakeFiles/myexample.dir/progress.make
 include CMakeFiles/myexample.dir/flags.make
 
 CMakeFiles/myexample.dir/myexample.o: CMakeFiles/myexample.dir/flags.make
-CMakeFiles/myexample.dir/myexample.o: myexample.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/robsk789/privat_stuff/TNM090/lab3/qt/CMakeFiles $(CMAKE_PROGRESS_1)
+CMakeFiles/myexample.dir/myexample.o: /home/robsk789/privat_stuff/TNM090/lab3/qt/myexample.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/alesv019/privat_stuff/Kurser/tnm090/pumlab3/qt/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/myexample.dir/myexample.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/myexample.dir/myexample.o -c /home/robsk789/privat_stuff/TNM090/lab3/qt/myexample.cpp
 
@@ -73,8 +73,8 @@ CMakeFiles/myexample.dir/myexample.o.provides: CMakeFiles/myexample.dir/myexampl
 CMakeFiles/myexample.dir/myexample.o.provides.build: CMakeFiles/myexample.dir/myexample.o
 
 CMakeFiles/myexample.dir/myopengl.o: CMakeFiles/myexample.dir/flags.make
-CMakeFiles/myexample.dir/myopengl.o: myopengl.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/robsk789/privat_stuff/TNM090/lab3/qt/CMakeFiles $(CMAKE_PROGRESS_2)
+CMakeFiles/myexample.dir/myopengl.o: /home/robsk789/privat_stuff/TNM090/lab3/qt/myopengl.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/alesv019/privat_stuff/Kurser/tnm090/pumlab3/qt/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/myexample.dir/myopengl.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/myexample.dir/myopengl.o -c /home/robsk789/privat_stuff/TNM090/lab3/qt/myopengl.cpp
 
@@ -96,8 +96,8 @@ CMakeFiles/myexample.dir/myopengl.o.provides: CMakeFiles/myexample.dir/myopengl.
 CMakeFiles/myexample.dir/myopengl.o.provides.build: CMakeFiles/myexample.dir/myopengl.o
 
 CMakeFiles/myexample.dir/ParticleSystem.o: CMakeFiles/myexample.dir/flags.make
-CMakeFiles/myexample.dir/ParticleSystem.o: ParticleSystem.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/robsk789/privat_stuff/TNM090/lab3/qt/CMakeFiles $(CMAKE_PROGRESS_3)
+CMakeFiles/myexample.dir/ParticleSystem.o: /home/robsk789/privat_stuff/TNM090/lab3/qt/ParticleSystem.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/alesv019/privat_stuff/Kurser/tnm090/pumlab3/qt/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/myexample.dir/ParticleSystem.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/myexample.dir/ParticleSystem.o -c /home/robsk789/privat_stuff/TNM090/lab3/qt/ParticleSystem.cpp
 
@@ -119,8 +119,8 @@ CMakeFiles/myexample.dir/ParticleSystem.o.provides: CMakeFiles/myexample.dir/Par
 CMakeFiles/myexample.dir/ParticleSystem.o.provides.build: CMakeFiles/myexample.dir/ParticleSystem.o
 
 CMakeFiles/myexample.dir/ConeEmitter.o: CMakeFiles/myexample.dir/flags.make
-CMakeFiles/myexample.dir/ConeEmitter.o: ConeEmitter.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/robsk789/privat_stuff/TNM090/lab3/qt/CMakeFiles $(CMAKE_PROGRESS_4)
+CMakeFiles/myexample.dir/ConeEmitter.o: /home/robsk789/privat_stuff/TNM090/lab3/qt/ConeEmitter.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/alesv019/privat_stuff/Kurser/tnm090/pumlab3/qt/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/myexample.dir/ConeEmitter.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/myexample.dir/ConeEmitter.o -c /home/robsk789/privat_stuff/TNM090/lab3/qt/ConeEmitter.cpp
 
@@ -142,8 +142,8 @@ CMakeFiles/myexample.dir/ConeEmitter.o.provides: CMakeFiles/myexample.dir/ConeEm
 CMakeFiles/myexample.dir/ConeEmitter.o.provides.build: CMakeFiles/myexample.dir/ConeEmitter.o
 
 CMakeFiles/myexample.dir/Particle.o: CMakeFiles/myexample.dir/flags.make
-CMakeFiles/myexample.dir/Particle.o: Particle.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/robsk789/privat_stuff/TNM090/lab3/qt/CMakeFiles $(CMAKE_PROGRESS_5)
+CMakeFiles/myexample.dir/Particle.o: /home/robsk789/privat_stuff/TNM090/lab3/qt/Particle.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/alesv019/privat_stuff/Kurser/tnm090/pumlab3/qt/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/myexample.dir/Particle.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/myexample.dir/Particle.o -c /home/robsk789/privat_stuff/TNM090/lab3/qt/Particle.cpp
 
@@ -165,8 +165,8 @@ CMakeFiles/myexample.dir/Particle.o.provides: CMakeFiles/myexample.dir/Particle.
 CMakeFiles/myexample.dir/Particle.o.provides.build: CMakeFiles/myexample.dir/Particle.o
 
 CMakeFiles/myexample.dir/ParticleModifier.o: CMakeFiles/myexample.dir/flags.make
-CMakeFiles/myexample.dir/ParticleModifier.o: ParticleModifier.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/robsk789/privat_stuff/TNM090/lab3/qt/CMakeFiles $(CMAKE_PROGRESS_6)
+CMakeFiles/myexample.dir/ParticleModifier.o: /home/robsk789/privat_stuff/TNM090/lab3/qt/ParticleModifier.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/alesv019/privat_stuff/Kurser/tnm090/pumlab3/qt/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/myexample.dir/ParticleModifier.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/myexample.dir/ParticleModifier.o -c /home/robsk789/privat_stuff/TNM090/lab3/qt/ParticleModifier.cpp
 
@@ -188,8 +188,8 @@ CMakeFiles/myexample.dir/ParticleModifier.o.provides: CMakeFiles/myexample.dir/P
 CMakeFiles/myexample.dir/ParticleModifier.o.provides.build: CMakeFiles/myexample.dir/ParticleModifier.o
 
 CMakeFiles/myexample.dir/PointEmitter.o: CMakeFiles/myexample.dir/flags.make
-CMakeFiles/myexample.dir/PointEmitter.o: PointEmitter.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/robsk789/privat_stuff/TNM090/lab3/qt/CMakeFiles $(CMAKE_PROGRESS_7)
+CMakeFiles/myexample.dir/PointEmitter.o: /home/robsk789/privat_stuff/TNM090/lab3/qt/PointEmitter.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/alesv019/privat_stuff/Kurser/tnm090/pumlab3/qt/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/myexample.dir/PointEmitter.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/myexample.dir/PointEmitter.o -c /home/robsk789/privat_stuff/TNM090/lab3/qt/PointEmitter.cpp
 
@@ -211,8 +211,8 @@ CMakeFiles/myexample.dir/PointEmitter.o.provides: CMakeFiles/myexample.dir/Point
 CMakeFiles/myexample.dir/PointEmitter.o.provides.build: CMakeFiles/myexample.dir/PointEmitter.o
 
 CMakeFiles/myexample.dir/WindModifier.o: CMakeFiles/myexample.dir/flags.make
-CMakeFiles/myexample.dir/WindModifier.o: WindModifier.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/robsk789/privat_stuff/TNM090/lab3/qt/CMakeFiles $(CMAKE_PROGRESS_8)
+CMakeFiles/myexample.dir/WindModifier.o: /home/robsk789/privat_stuff/TNM090/lab3/qt/WindModifier.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/alesv019/privat_stuff/Kurser/tnm090/pumlab3/qt/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/myexample.dir/WindModifier.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/myexample.dir/WindModifier.o -c /home/robsk789/privat_stuff/TNM090/lab3/qt/WindModifier.cpp
 
@@ -234,8 +234,8 @@ CMakeFiles/myexample.dir/WindModifier.o.provides: CMakeFiles/myexample.dir/WindM
 CMakeFiles/myexample.dir/WindModifier.o.provides.build: CMakeFiles/myexample.dir/WindModifier.o
 
 CMakeFiles/myexample.dir/GravityModifier.o: CMakeFiles/myexample.dir/flags.make
-CMakeFiles/myexample.dir/GravityModifier.o: GravityModifier.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/robsk789/privat_stuff/TNM090/lab3/qt/CMakeFiles $(CMAKE_PROGRESS_9)
+CMakeFiles/myexample.dir/GravityModifier.o: /home/robsk789/privat_stuff/TNM090/lab3/qt/GravityModifier.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/alesv019/privat_stuff/Kurser/tnm090/pumlab3/qt/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/myexample.dir/GravityModifier.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/myexample.dir/GravityModifier.o -c /home/robsk789/privat_stuff/TNM090/lab3/qt/GravityModifier.cpp
 
@@ -257,8 +257,8 @@ CMakeFiles/myexample.dir/GravityModifier.o.provides: CMakeFiles/myexample.dir/Gr
 CMakeFiles/myexample.dir/GravityModifier.o.provides.build: CMakeFiles/myexample.dir/GravityModifier.o
 
 CMakeFiles/myexample.dir/ParticleEmitter.o: CMakeFiles/myexample.dir/flags.make
-CMakeFiles/myexample.dir/ParticleEmitter.o: ParticleEmitter.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/robsk789/privat_stuff/TNM090/lab3/qt/CMakeFiles $(CMAKE_PROGRESS_10)
+CMakeFiles/myexample.dir/ParticleEmitter.o: /home/robsk789/privat_stuff/TNM090/lab3/qt/ParticleEmitter.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/alesv019/privat_stuff/Kurser/tnm090/pumlab3/qt/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/myexample.dir/ParticleEmitter.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/myexample.dir/ParticleEmitter.o -c /home/robsk789/privat_stuff/TNM090/lab3/qt/ParticleEmitter.cpp
 
@@ -280,8 +280,8 @@ CMakeFiles/myexample.dir/ParticleEmitter.o.provides: CMakeFiles/myexample.dir/Pa
 CMakeFiles/myexample.dir/ParticleEmitter.o.provides.build: CMakeFiles/myexample.dir/ParticleEmitter.o
 
 CMakeFiles/myexample.dir/main.o: CMakeFiles/myexample.dir/flags.make
-CMakeFiles/myexample.dir/main.o: main.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/robsk789/privat_stuff/TNM090/lab3/qt/CMakeFiles $(CMAKE_PROGRESS_11)
+CMakeFiles/myexample.dir/main.o: /home/robsk789/privat_stuff/TNM090/lab3/qt/main.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/alesv019/privat_stuff/Kurser/tnm090/pumlab3/qt/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/myexample.dir/main.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/myexample.dir/main.o -c /home/robsk789/privat_stuff/TNM090/lab3/qt/main.cpp
 
@@ -304,17 +304,17 @@ CMakeFiles/myexample.dir/main.o.provides.build: CMakeFiles/myexample.dir/main.o
 
 CMakeFiles/myexample.dir/moc_myexample.o: CMakeFiles/myexample.dir/flags.make
 CMakeFiles/myexample.dir/moc_myexample.o: moc_myexample.cxx
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/robsk789/privat_stuff/TNM090/lab3/qt/CMakeFiles $(CMAKE_PROGRESS_12)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/alesv019/privat_stuff/Kurser/tnm090/pumlab3/qt/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/myexample.dir/moc_myexample.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/myexample.dir/moc_myexample.o -c /home/robsk789/privat_stuff/TNM090/lab3/qt/moc_myexample.cxx
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/myexample.dir/moc_myexample.o -c /home/alesv019/privat_stuff/Kurser/tnm090/pumlab3/qt/moc_myexample.cxx
 
 CMakeFiles/myexample.dir/moc_myexample.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myexample.dir/moc_myexample.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/robsk789/privat_stuff/TNM090/lab3/qt/moc_myexample.cxx > CMakeFiles/myexample.dir/moc_myexample.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/alesv019/privat_stuff/Kurser/tnm090/pumlab3/qt/moc_myexample.cxx > CMakeFiles/myexample.dir/moc_myexample.i
 
 CMakeFiles/myexample.dir/moc_myexample.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myexample.dir/moc_myexample.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/robsk789/privat_stuff/TNM090/lab3/qt/moc_myexample.cxx -o CMakeFiles/myexample.dir/moc_myexample.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/alesv019/privat_stuff/Kurser/tnm090/pumlab3/qt/moc_myexample.cxx -o CMakeFiles/myexample.dir/moc_myexample.s
 
 CMakeFiles/myexample.dir/moc_myexample.o.requires:
 .PHONY : CMakeFiles/myexample.dir/moc_myexample.o.requires
@@ -327,17 +327,17 @@ CMakeFiles/myexample.dir/moc_myexample.o.provides.build: CMakeFiles/myexample.di
 
 CMakeFiles/myexample.dir/moc_myopengl.o: CMakeFiles/myexample.dir/flags.make
 CMakeFiles/myexample.dir/moc_myopengl.o: moc_myopengl.cxx
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/robsk789/privat_stuff/TNM090/lab3/qt/CMakeFiles $(CMAKE_PROGRESS_13)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/alesv019/privat_stuff/Kurser/tnm090/pumlab3/qt/CMakeFiles $(CMAKE_PROGRESS_13)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/myexample.dir/moc_myopengl.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/myexample.dir/moc_myopengl.o -c /home/robsk789/privat_stuff/TNM090/lab3/qt/moc_myopengl.cxx
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/myexample.dir/moc_myopengl.o -c /home/alesv019/privat_stuff/Kurser/tnm090/pumlab3/qt/moc_myopengl.cxx
 
 CMakeFiles/myexample.dir/moc_myopengl.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myexample.dir/moc_myopengl.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/robsk789/privat_stuff/TNM090/lab3/qt/moc_myopengl.cxx > CMakeFiles/myexample.dir/moc_myopengl.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/alesv019/privat_stuff/Kurser/tnm090/pumlab3/qt/moc_myopengl.cxx > CMakeFiles/myexample.dir/moc_myopengl.i
 
 CMakeFiles/myexample.dir/moc_myopengl.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myexample.dir/moc_myopengl.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/robsk789/privat_stuff/TNM090/lab3/qt/moc_myopengl.cxx -o CMakeFiles/myexample.dir/moc_myopengl.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/alesv019/privat_stuff/Kurser/tnm090/pumlab3/qt/moc_myopengl.cxx -o CMakeFiles/myexample.dir/moc_myopengl.s
 
 CMakeFiles/myexample.dir/moc_myopengl.o.requires:
 .PHONY : CMakeFiles/myexample.dir/moc_myopengl.o.requires
@@ -350,17 +350,17 @@ CMakeFiles/myexample.dir/moc_myopengl.o.provides.build: CMakeFiles/myexample.dir
 
 CMakeFiles/myexample.dir/moc_ui_myexample.o: CMakeFiles/myexample.dir/flags.make
 CMakeFiles/myexample.dir/moc_ui_myexample.o: moc_ui_myexample.cxx
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/robsk789/privat_stuff/TNM090/lab3/qt/CMakeFiles $(CMAKE_PROGRESS_14)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/alesv019/privat_stuff/Kurser/tnm090/pumlab3/qt/CMakeFiles $(CMAKE_PROGRESS_14)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/myexample.dir/moc_ui_myexample.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/myexample.dir/moc_ui_myexample.o -c /home/robsk789/privat_stuff/TNM090/lab3/qt/moc_ui_myexample.cxx
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/myexample.dir/moc_ui_myexample.o -c /home/alesv019/privat_stuff/Kurser/tnm090/pumlab3/qt/moc_ui_myexample.cxx
 
 CMakeFiles/myexample.dir/moc_ui_myexample.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/myexample.dir/moc_ui_myexample.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/robsk789/privat_stuff/TNM090/lab3/qt/moc_ui_myexample.cxx > CMakeFiles/myexample.dir/moc_ui_myexample.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/alesv019/privat_stuff/Kurser/tnm090/pumlab3/qt/moc_ui_myexample.cxx > CMakeFiles/myexample.dir/moc_ui_myexample.i
 
 CMakeFiles/myexample.dir/moc_ui_myexample.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/myexample.dir/moc_ui_myexample.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/robsk789/privat_stuff/TNM090/lab3/qt/moc_ui_myexample.cxx -o CMakeFiles/myexample.dir/moc_ui_myexample.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/alesv019/privat_stuff/Kurser/tnm090/pumlab3/qt/moc_ui_myexample.cxx -o CMakeFiles/myexample.dir/moc_ui_myexample.s
 
 CMakeFiles/myexample.dir/moc_ui_myexample.o.requires:
 .PHONY : CMakeFiles/myexample.dir/moc_ui_myexample.o.requires
@@ -371,25 +371,25 @@ CMakeFiles/myexample.dir/moc_ui_myexample.o.provides: CMakeFiles/myexample.dir/m
 
 CMakeFiles/myexample.dir/moc_ui_myexample.o.provides.build: CMakeFiles/myexample.dir/moc_ui_myexample.o
 
-moc_myexample.cxx: myexample.hh
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/robsk789/privat_stuff/TNM090/lab3/qt/CMakeFiles $(CMAKE_PROGRESS_15)
+moc_myexample.cxx: /home/robsk789/privat_stuff/TNM090/lab3/qt/myexample.hh
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/alesv019/privat_stuff/Kurser/tnm090/pumlab3/qt/CMakeFiles $(CMAKE_PROGRESS_15)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_myexample.cxx"
-	/usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_CORE_LIB -o /home/robsk789/privat_stuff/TNM090/lab3/qt/moc_myexample.cxx /home/robsk789/privat_stuff/TNM090/lab3/qt/myexample.hh
+	/usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_CORE_LIB -o /home/alesv019/privat_stuff/Kurser/tnm090/pumlab3/qt/moc_myexample.cxx /home/robsk789/privat_stuff/TNM090/lab3/qt/myexample.hh
 
-moc_myopengl.cxx: myopengl.hh
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/robsk789/privat_stuff/TNM090/lab3/qt/CMakeFiles $(CMAKE_PROGRESS_16)
+moc_myopengl.cxx: /home/robsk789/privat_stuff/TNM090/lab3/qt/myopengl.hh
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/alesv019/privat_stuff/Kurser/tnm090/pumlab3/qt/CMakeFiles $(CMAKE_PROGRESS_16)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_myopengl.cxx"
-	/usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_CORE_LIB -o /home/robsk789/privat_stuff/TNM090/lab3/qt/moc_myopengl.cxx /home/robsk789/privat_stuff/TNM090/lab3/qt/myopengl.hh
+	/usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_CORE_LIB -o /home/alesv019/privat_stuff/Kurser/tnm090/pumlab3/qt/moc_myopengl.cxx /home/robsk789/privat_stuff/TNM090/lab3/qt/myopengl.hh
 
 moc_ui_myexample.cxx: ui_myexample.h
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/robsk789/privat_stuff/TNM090/lab3/qt/CMakeFiles $(CMAKE_PROGRESS_17)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/alesv019/privat_stuff/Kurser/tnm090/pumlab3/qt/CMakeFiles $(CMAKE_PROGRESS_17)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating moc_ui_myexample.cxx"
-	/usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_CORE_LIB -o /home/robsk789/privat_stuff/TNM090/lab3/qt/moc_ui_myexample.cxx /home/robsk789/privat_stuff/TNM090/lab3/qt/ui_myexample.h
+	/usr/bin/moc-qt4 -I/usr/include/qt4 -I/usr/include/qt4/QtOpenGL -I/usr/include/qt4/QtGui -I/usr/include/qt4/QtCore -DQT_NO_DEBUG -DQT_OPENGL_LIB -DQT_GUI_LIB -DQT_CORE_LIB -o /home/alesv019/privat_stuff/Kurser/tnm090/pumlab3/qt/moc_ui_myexample.cxx /home/alesv019/privat_stuff/Kurser/tnm090/pumlab3/qt/ui_myexample.h
 
-ui_myexample.h: myexample.ui
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/robsk789/privat_stuff/TNM090/lab3/qt/CMakeFiles $(CMAKE_PROGRESS_18)
+ui_myexample.h: /home/robsk789/privat_stuff/TNM090/lab3/qt/myexample.ui
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/alesv019/privat_stuff/Kurser/tnm090/pumlab3/qt/CMakeFiles $(CMAKE_PROGRESS_18)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating ui_myexample.h"
-	/usr/bin/uic-qt4 -o /home/robsk789/privat_stuff/TNM090/lab3/qt/ui_myexample.h /home/robsk789/privat_stuff/TNM090/lab3/qt/myexample.ui
+	/usr/bin/uic-qt4 -o /home/alesv019/privat_stuff/Kurser/tnm090/pumlab3/qt/ui_myexample.h /home/robsk789/privat_stuff/TNM090/lab3/qt/myexample.ui
 
 # Object files for target myexample
 myexample_OBJECTS = \
@@ -461,6 +461,6 @@ CMakeFiles/myexample.dir/depend: moc_myexample.cxx
 CMakeFiles/myexample.dir/depend: moc_myopengl.cxx
 CMakeFiles/myexample.dir/depend: moc_ui_myexample.cxx
 CMakeFiles/myexample.dir/depend: ui_myexample.h
-	cd /home/robsk789/privat_stuff/TNM090/lab3/qt && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/robsk789/privat_stuff/TNM090/lab3/qt /home/robsk789/privat_stuff/TNM090/lab3/qt /home/robsk789/privat_stuff/TNM090/lab3/qt /home/robsk789/privat_stuff/TNM090/lab3/qt /home/robsk789/privat_stuff/TNM090/lab3/qt/CMakeFiles/myexample.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/alesv019/privat_stuff/Kurser/tnm090/pumlab3/qt && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/robsk789/privat_stuff/TNM090/lab3/qt /home/robsk789/privat_stuff/TNM090/lab3/qt /home/alesv019/privat_stuff/Kurser/tnm090/pumlab3/qt /home/alesv019/privat_stuff/Kurser/tnm090/pumlab3/qt /home/alesv019/privat_stuff/Kurser/tnm090/pumlab3/qt/CMakeFiles/myexample.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/myexample.dir/depend
 

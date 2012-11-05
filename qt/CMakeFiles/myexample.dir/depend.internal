@@ -231,13 +231,13 @@ CMakeFiles/myexample.dir/main.o
  /usr/include/qt4/QtOpenGL/qgl.h
  /usr/include/qt4/QtOpenGL/qglcolormap.h
 CMakeFiles/myexample.dir/moc_myexample.o
- /home/robsk789/privat_stuff/TNM090/lab3/qt/Particle.h
- /home/robsk789/privat_stuff/TNM090/lab3/qt/ParticleSystem.h
- /home/robsk789/privat_stuff/TNM090/lab3/qt/Types.h
- /home/robsk789/privat_stuff/TNM090/lab3/qt/moc_myexample.cxx
- /home/robsk789/privat_stuff/TNM090/lab3/qt/myexample.hh
- /home/robsk789/privat_stuff/TNM090/lab3/qt/myopengl.hh
- /home/robsk789/privat_stuff/TNM090/lab3/qt/ui_myexample.h
+ /home/alesv019/privat_stuff/Kurser/tnm090/pumlab3/qt/../../../../../../robsk789/privat_stuff/TNM090/lab3/qt/Particle.h
+ /home/alesv019/privat_stuff/Kurser/tnm090/pumlab3/qt/../../../../../../robsk789/privat_stuff/TNM090/lab3/qt/ParticleSystem.h
+ /home/alesv019/privat_stuff/Kurser/tnm090/pumlab3/qt/../../../../../../robsk789/privat_stuff/TNM090/lab3/qt/Types.h
+ /home/alesv019/privat_stuff/Kurser/tnm090/pumlab3/qt/../../../../../../robsk789/privat_stuff/TNM090/lab3/qt/myexample.hh
+ /home/alesv019/privat_stuff/Kurser/tnm090/pumlab3/qt/../../../../../../robsk789/privat_stuff/TNM090/lab3/qt/myopengl.hh
+ /home/alesv019/privat_stuff/Kurser/tnm090/pumlab3/qt/../../../../../../robsk789/privat_stuff/TNM090/lab3/qt/ui_myexample.h
+ /home/alesv019/privat_stuff/Kurser/tnm090/pumlab3/qt/moc_myexample.cxx
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QMutex
@@ -404,11 +404,11 @@ CMakeFiles/myexample.dir/moc_myexample.o
  /usr/include/qt4/QtOpenGL/qgl.h
  /usr/include/qt4/QtOpenGL/qglcolormap.h
 CMakeFiles/myexample.dir/moc_myopengl.o
- /home/robsk789/privat_stuff/TNM090/lab3/qt/Particle.h
- /home/robsk789/privat_stuff/TNM090/lab3/qt/ParticleSystem.h
- /home/robsk789/privat_stuff/TNM090/lab3/qt/Types.h
- /home/robsk789/privat_stuff/TNM090/lab3/qt/moc_myopengl.cxx
- /home/robsk789/privat_stuff/TNM090/lab3/qt/myopengl.hh
+ /home/alesv019/privat_stuff/Kurser/tnm090/pumlab3/qt/../../../../../../robsk789/privat_stuff/TNM090/lab3/qt/Particle.h
+ /home/alesv019/privat_stuff/Kurser/tnm090/pumlab3/qt/../../../../../../robsk789/privat_stuff/TNM090/lab3/qt/ParticleSystem.h
+ /home/alesv019/privat_stuff/Kurser/tnm090/pumlab3/qt/../../../../../../robsk789/privat_stuff/TNM090/lab3/qt/Types.h
+ /home/alesv019/privat_stuff/Kurser/tnm090/pumlab3/qt/../../../../../../robsk789/privat_stuff/TNM090/lab3/qt/myopengl.hh
+ /home/alesv019/privat_stuff/Kurser/tnm090/pumlab3/qt/moc_myopengl.cxx
  /usr/include/qt4/Qt3Support/q3cstring.h
  /usr/include/qt4/Qt3Support/q3valuelist.h
  /usr/include/qt4/QtCore/QPoint
@@ -519,7 +519,7 @@ CMakeFiles/myexample.dir/moc_myopengl.o
  /usr/include/qt4/QtOpenGL/qgl.h
  /usr/include/qt4/QtOpenGL/qglcolormap.h
 CMakeFiles/myexample.dir/moc_ui_myexample.o
- /home/robsk789/privat_stuff/TNM090/lab3/qt/moc_ui_myexample.cxx
+ /home/alesv019/privat_stuff/Kurser/tnm090/pumlab3/qt/moc_ui_myexample.cxx
 CMakeFiles/myexample.dir/myexample.o
  /home/robsk789/privat_stuff/TNM090/lab3/qt/Particle.h
  /home/robsk789/privat_stuff/TNM090/lab3/qt/ParticleSystem.h

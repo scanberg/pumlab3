@@ -42,7 +42,7 @@ CMAKE_EDIT_COMMAND = /usr/bin/cmake-gui
 CMAKE_SOURCE_DIR = /home/robsk789/privat_stuff/TNM090/lab3/qt
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/robsk789/privat_stuff/TNM090/lab3/qt
+CMAKE_BINARY_DIR = /home/alesv019/privat_stuff/Kurser/tnm090/pumlab3/qt
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -69,9 +69,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/robsk789/privat_stuff/TNM090/lab3/qt/CMakeFiles /home/robsk789/privat_stuff/TNM090/lab3/qt/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alesv019/privat_stuff/Kurser/tnm090/pumlab3/qt/CMakeFiles /home/alesv019/privat_stuff/Kurser/tnm090/pumlab3/qt/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/robsk789/privat_stuff/TNM090/lab3/qt/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/alesv019/privat_stuff/Kurser/tnm090/pumlab3/qt/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

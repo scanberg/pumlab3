@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 SET(CMAKE_RELATIVE_PATH_TOP_SOURCE "/home/robsk789/privat_stuff/TNM090/lab3/qt")
-SET(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/robsk789/privat_stuff/TNM090/lab3/qt")
+SET(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/alesv019/privat_stuff/Kurser/tnm090/pumlab3/qt")
 
 # Force unix paths in dependencies.
 SET(CMAKE_FORCE_UNIX_PATHS 1)

@@ -6,7 +6,7 @@
 
 ParticleSystem::ParticleSystem()
 {
-    particles.resize(10, Particle());
+    particles.resize(1000000, Particle());
     currentCount = 0;
     maxCount = 0;
 }
